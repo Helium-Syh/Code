@@ -95,7 +95,6 @@ int main() {
 			}
 		}
 	}
-	
 	for (int i = 1; i <= n; i++) 
 		for (int j = 1; j <= m; j++) 
 			ans = max(ans, dp[K][i][j]);
